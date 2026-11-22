@@ -1,100 +1,28 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cell Culture Humidity Tray | Duke EGR 101</title>
-<meta name="description" content="A humidity-retaining tray and lid with an FEP gas-exchange window for cell culture gels. Duke EGR 101 design project for Carolinas Cord Blood Bank.">
-<style>
-:root{--blue:#012169;--mid:#1f4fa8;--ink:#1a1f2b;--muted:#586074;--bg:#f6f8fc;--card:#fff;--line:#dde3ef}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:17px}
-header{background:var(--blue);color:#fff;padding:64px 20px 56px}
-.wrap{max-width:960px;margin:0 auto;padding:0 20px}
-header .wrap{padding:0}
-.eyebrow{letter-spacing:.14em;text-transform:uppercase;font-size:13px;opacity:.8;margin:0 0 14px}
-h1{font-size:clamp(32px,6vw,52px);line-height:1.1;margin:0 0 16px}
-header p.lead{font-size:clamp(18px,2.4vw,21px);max-width:640px;margin:0;opacity:.92}
-nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
-nav .wrap{display:flex;gap:6px;overflow-x:auto;padding:0 20px}
-nav a{color:var(--blue);text-decoration:none;font-weight:600;font-size:15px;padding:14px 12px;white-space:nowrap}
-nav a:hover{background:var(--bg)}
-section{padding:56px 0 8px}
-h2{color:var(--blue);font-size:30px;margin:0 0 14px}
-h3{margin:0 0 6px;font-size:19px}
-p{margin:0 0 14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:20px 0}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
-.card p{color:var(--muted);margin:0;font-size:16px}
-figure{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
-figure img{width:100%;height:auto;display:block;border-radius:8px}
-figcaption{color:var(--muted);font-size:15px;margin-top:10px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media(max-width:700px){.two{grid-template-columns:1fr}}
-ol.steps{padding-left:0;list-style:none;counter-reset:s;margin:16px 0}
-ol.steps li{counter-increment:s;display:flex;gap:14px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
-ol.steps li::before{content:counter(s);background:var(--blue);color:#fff;font-weight:700;border-radius:50%;min-width:32px;height:32px;display:grid;place-items:center;font-size:15px;margin-top:2px}
-.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;padding:12px 20px;border-radius:10px;font-weight:600;margin-top:8px}
-.btn:hover{background:var(--mid)}
-.stat{font-size:38px;font-weight:800;color:var(--blue);line-height:1}
-.team{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-.team span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-weight:600}
-footer{margin-top:64px;background:var(--blue);color:#cfd8f0;padding:32px 0;font-size:15px}
-</style></head><body>
-
-<header><div class="wrap">
-<p class="eyebrow">Duke University &middot; EGR 101 &middot; Fall 2026</p>
-<h1>Keeping cell culture gels humid, while letting gas through</h1>
-<p class="lead">A filter lid and tray system designed for Dr. Shoulars and the Carolinas Cord Blood Bank.</p>
-</div></header>
-
-<nav><div class="wrap">
-<a href="#problem">Problem</a><a href="#design">Design</a><a href="#results">Results</a><a href="#change-fep">Changing the FEP</a><a href="#team">Team</a>
-</div></nav>
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cell Culture Tray to Trap Humidity | Duke EGR 101</title><meta name="description" content="A humidity-retaining tray and lid with an FEP gas-exchange window for cell culture gels. Duke EGR 101 design project for Carolinas Cord Blood Bank."><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><p class="eyebrow">Duke University &middot; EGR 101 &middot; Fall 2026</p><h1>Cell Culture Tray to Trap Humidity</h1><p class="lead">A tray and filter lid designed for Dr. Shoulars and the Carolinas Cord Blood Bank.</p></div></header><nav><div class="wrap"><a href="index.html" class="on">Home</a><a href="testing.html" class="">Testing</a></div></nav>
 <main class="wrap">
-
 <section id="problem"><h2>The problem</h2>
-<p>Cells grown on gels need a humid environment. At the same time, they need gas exchange, so the tray cannot simply be sealed shut. Our client's existing tray loses humidity over several days.</p>
-<p>Our goal was a tray that stays humid over several days while still allowing gas exchange through a filter.</p>
+<div class="problem"><p>Cells grown on gels need a humid environment. At the same time, they need gas exchange, so the tray cannot simply be sealed shut. Our client's existing tray loses humidity over several days.</p>
+<p>We needed a tray that keeps its humidity over several days while still letting gas pass through a filter.</p></div>
 </section>
 
-<section id="design"><h2>Our design</h2>
-<p>The system is a tray that holds the cell plates and a water reservoir, covered by a lid with a window of FEP film. FEP lets gases pass while keeping moisture in, which is the balance we need.</p>
-<div class="grid">
-<div class="card"><h3>Lid</h3><p>Clear acrylic with handles and 16 screw holes that clamp the FEP film in place around a central window.</p></div>
-<div class="card"><h3>FEP window</h3><p>A thin film that allows gas exchange. It is replaceable, so the lid can be reused.</p></div>
-<div class="card"><h3>Tray</h3><p>Holds the cell plates and a water reservoir that keeps the air inside humid.</p></div>
+<section id="prototype"><h2>Our prototype</h2>
+<p>The prototype is a tray that holds the cell plates and a water reservoir, covered by a lid with a window of FEP film. FEP lets gases pass while holding moisture in, which is the balance we need.</p>
+<div class="two">
+<figure><img src="prototype.jpg" alt="Top view of the prototype tray with a humidity sensor inside"><figcaption>The prototype from above, with a Bluetooth humidity sensor inside.</figcaption></figure>
+<figure><img src="incubator.jpg" alt="Prototype trays stacked inside a benchtop CO2 incubator"><figcaption>Prototype trays inside a benchtop CO2 incubator.</figcaption></figure>
 </div>
-<figure><img src="lid.png" alt="Isometric drawing of the lid with FEP window, 16 screw holes and handles"><figcaption>Isometric view of the lid, showing the FEP window, screw holes and handles.</figcaption></figure>
-</section>
-
-<section id="results"><h2>Results</h2>
-<p>We tracked relative humidity inside each tray over six days. The two manufactured trays held steady, while the current tray steadily lost humidity.</p>
+<h3 style="margin-top:28px">The parts</h3>
 <div class="grid">
-<div class="card"><div class="stat">96&ndash;97%</div><p>Relative humidity held by both manufactured trays through day 6</p></div>
-<div class="card"><div class="stat">94% &rarr; 68%</div><p>Relative humidity of the current tray, day 1 to day 6</p></div>
+<div class="card"><span class="tag">Lid</span><p>Clear acrylic with handles for lifting and 16 screw holes around a central window.</p></div>
+<div class="card"><span class="tag">FEP window</span><p>A thin film clamped over the window. It lets gas exchange happen, and it can be replaced.</p></div>
+<div class="card"><span class="tag">Screws</span><p>Steel screws clamp the film and lid together, with heat inserts in the acrylic.</p></div>
+<div class="card"><span class="tag">Tray</span><p>Holds the cell plates and a water reservoir that keeps the air inside humid.</p></div>
 </div>
-<figure><img src="humidity-graph.png" alt="Line graph of relative humidity versus day for two manufactured trays and the current tray"><figcaption>Relative humidity over time. Manufactured trays stay near 96&ndash;97%; the current tray falls to 68%.</figcaption></figure>
-</section>
-
-<section id="change-fep"><h2>How to change the FEP filter</h2>
-<ol class="steps">
-<li>Unscrew corner screws</li>
-<li>Unscrew middle screws, then remaining</li>
-<li>Replace FEP and poke holes (use plastic bag)</li>
-<li>Screw corner screws</li>
-<li>Screw middle screws, then remaining</li>
-<li>Make sure tight</li>
-<li>Cut leftover FEP</li>
-</ol>
-<a class="btn" href="FEP_Filter_Instructions.pdf">Download the printable instructions (PDF)</a>
+<figure><img src="lid.png" alt="Isometric drawing of the lid with FEP window, 16 screw holes and handles"><figcaption>Drawing of the lid: acrylic, FEP film over the window, 16 screw holes and handles.</figcaption></figure>
+<a class="btn" href="testing.html">See how we tested it</a>
 </section>
 
 <section id="team"><h2>Team</h2>
-<p>Cell Culture Humidity Team, Duke University EGR 101, working with Dr. Shoulars at the Carolinas Cord Blood Bank.</p>
-<div class="team"><span>Graham Snyder</span><span>Nainika</span><span>Aditi</span><span>Brad</span></div>
-<p style="margin-top:18px;color:var(--muted);font-size:15px">More results and details will be added here after poster day.</p>
+<p>Bradley Koeller, Graham Snyder, Nainika Gupta, Aditi Shridhar, Dr. Ann Saterbak and Ananya Sridhar. Duke University EGR 101, working with Dr. Shoulars at the Carolinas Cord Blood Bank.</p>
 </section>
-</main>
-
-<footer><div class="wrap">Duke University EGR 101 design project. Built by the Cell Culture Humidity Team.</div></footer>
-</body></html>
+</main><footer><div class="wrap">Duke University EGR 101 design project. Built by the Cell Culture Humidity Team.</div></footer></body></html>
